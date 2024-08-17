@@ -14,4 +14,10 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="default1.Pessoa"/>
     <fullyQualifiedTypeName name="default1.EstadoBrasileiro"/>
+    <fullyQualifiedTypeName name="veiculos.Veiculo"/>
+    <fullyQualifiedTypeName name="mensagens.MSNMessenger"/>
+    <fullyQualifiedTypeName name="mensagens.ComputadorPedrinho"/>
+    <fullyQualifiedTypeName name="mensagens.FacebookMessenger"/>
+    <fullyQualifiedTypeName name="mensagens.Telegram"/>
+    <fullyQualifiedTypeName name="mensagens.ServicoMensagemInstantanea"/>
 </qualifiedTypeNameHistroy>
