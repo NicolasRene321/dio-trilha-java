@@ -33,4 +33,8 @@
     <fullyQualifiedTypeName name="desafio_iphone.ReprodutorMusical"/>
     <fullyQualifiedTypeName name="desafio_iphone.AparelhoTelefonico"/>
     <fullyQualifiedTypeName name="desafio_iphone.NavegadorInternet"/>
+    <fullyQualifiedTypeName name="tecnologias.Iphone"/>
+    <fullyQualifiedTypeName name="tecnologias.ReprodutorMusical"/>
+    <fullyQualifiedTypeName name="tecnologias.AparelhoTelefonico"/>
+    <fullyQualifiedTypeName name="tecnologias.NavegadorInternet"/>
 </qualifiedTypeNameHistroy>
