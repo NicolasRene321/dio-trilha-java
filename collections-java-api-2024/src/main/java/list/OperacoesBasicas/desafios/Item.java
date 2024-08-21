@@ -1,4 +1,4 @@
-package main.java.list.OperacoesBasicas.desafios.primeiroDesafio;
+package main.java.list.OperacoesBasicas.desafios;
 
 public class Item {
     private String nome;
