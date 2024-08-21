@@ -18,7 +18,35 @@ public class CarrinhoDeCompras {
         List<Item> listaItensRemover = new ArrayList<>();
 
         for (Item item: listaItens){
-            
+            if (item.getNome().equalsIgnoreCase(nome)){
+                listaItensRemover.add(item);
+            }
         }
+
+        listaItens.removeAll(listaItensRemover);
+    }
+
+    public double calcularValorTotal() {
+        double valorTotal = 0.0;
+        for (int i = 0; i < listaItens.size(); i++){
+             valorTotal += (listaItens.get(i).getQuantidade() * listaItens.get(i).getPreco());
+        }
+        return valorTotal;
+    }
+
+    public void exibirItens(){
+        System.out.println(listaItens);
+    }
+
+    public static void main(String[] args) {
+        CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
+
+        carrinhoDeCompras.adicionarItem("Arroz", 12.00, 5);
+        carrinhoDeCompras.adicionarItem("Feijão", 12.00, 9);
+        carrinhoDeCompras.adicionarItem("Feijão", 12.00, 4);
+        carrinhoDeCompras.removerItem("Arroz");
+        carrinhoDeCompras.exibirItens();
+        System.out.println(carrinhoDeCompras.calcularValorTotal());
+
     }
 }
