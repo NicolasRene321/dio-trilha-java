@@ -1,2 +1,2 @@
-# dio-trilha-java-basico
-Repositório para exercícios do curso de Java Básico pela DIO
+# dio-trilha-java
+Repositório para exercícios do Bootcamp Claro - Java com Spring Boot pela DIO
