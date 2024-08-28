@@ -37,4 +37,9 @@
     <fullyQualifiedTypeName name="tecnologias.ReprodutorMusical"/>
     <fullyQualifiedTypeName name="tecnologias.AparelhoTelefonico"/>
     <fullyQualifiedTypeName name="tecnologias.NavegadorInternet"/>
+    <fullyQualifiedTypeName name="desafio_dio_banco.Conta"/>
+    <fullyQualifiedTypeName name="desafio_dio_banco.IConta"/>
+    <fullyQualifiedTypeName name="desafio_dio_banco.ContaCorrente"/>
+    <fullyQualifiedTypeName name="desafio_dio_banco.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="desafio_dio_banco.Cliente"/>
 </qualifiedTypeNameHistroy>
