@@ -1,20 +1,17 @@
 package desafio_dio_banco;
 
-public class ContaCorrente {
+public class ContaCorrente extends Conta{
 	
-	public int agencia;
-	public int numero;
-	public double saldo;
-	
-	public void sacar() {
-		
+	public ContaCorrente(Cliente cliente) {
+		super(cliente);
 	}
 	
-	public void depositar() {
-		
+	@Override
+	public void imprimirExtrato() {
+		System.out.println("=== Extrato Conta Corrente ===");
+		super.imprimirInfosComuns();
 	}
+
+		
 	
-	public void transferir() {
-		
-	}
 }
