@@ -25,8 +25,12 @@
 package com.github.willyancaetano.junit;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledForJreRange;
+import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 
 import static org.junit.jupiter.api.condition.JRE.JAVA_11;
 import static org.junit.jupiter.api.condition.JRE.JAVA_17;
@@ -34,8 +38,9 @@ import static org.junit.jupiter.api.condition.JRE.JAVA_17;
 public class CondicionaisTeste {
 
     @Test
-    @EnabledForJreRange(min = JAVA_11, max = JAVA_17)
-    void validarAlgoSomenteNoUsuarioWillyan() {
+    @EnabledOnOs(OS.LINUX) // Vários tipos de Enable!!!
+    void  validarAlgoSomenteNoUsuarioWillyan(){
+        Assumptions.assumeFalse("root".equals(System.getenv("USER")));
         Assertions.assertEquals(10, 5 + 5);
     }
 }
