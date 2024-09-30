@@ -29,7 +29,7 @@ public class ClienteServiceImpl implements ClienteService {
     private EnderecoRepository enderecoRepository;
     @Autowired
     private ViaCepService viaCepService;
-    
+
     // Strategy: Implementar os métodos definidos na interface.
     // Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
 
